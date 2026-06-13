@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - '?'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,3 +328,12 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [41, 42]
+  k: Ctl+C
+  l: [LAYER0]
+- p: [42, 43]
+  k: Ctl+V
+  l: [LAYER0]
+- p: [40, 41, 42, 43]
+  k: Ctl+A
+  l: [LAYER0]
