@@ -163,7 +163,7 @@
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_SEL 0   &bt BT_SEL 1   &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
 &trans     &out OUT_USB  &out OUT_BLE    &bt BT_SEL 2   &bt BT_SEL 3   &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &trans       &trans
 &bootloader &sys_reset   &trans          &bt BT_SEL 4  &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &trans      &soft_off  &sys_reset   &bootloader
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp C_MUTE &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "LAYER2";
@@ -176,7 +176,7 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans    &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
 &trans  &kp F5  &kp F6  &kp F7  &kp F8  &trans    &trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_MUTE  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "LAYER3";
@@ -189,7 +189,7 @@
 &trans     &trans     &kp AT     &trans     &trans     &kp CARET    &trans     &kp GRAVE  &trans     &trans     &kp ASTRK  &kp TILDE  &trans
 &kp UNDER  &kp EXCL   &kp EQUAL  &kp LPAR   &kp RPAR   &kp BSLH     &trans     &kp PIPE   &kp LBKT   &kp RBKT   &kp PLUS   &kp SEMI   &kp DQT
 &trans     &kp AMPS   &kp PRCNT  &kp LBRC   &kp RBRC   &kp HASH     &trans     &kp DLLR   &kp LT     &kp GT     &kp MINUS  &kp FSLH   &trans
-&trans     &trans     &trans     &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans     &trans
+&kp C_MUTE &trans     &trans     &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans     &trans
             >;
 
             display-name = "LAYER4";
