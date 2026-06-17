@@ -149,7 +149,7 @@
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans            &trans
 &trans      &trans           &trans          &trans           &trans           &trans           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &trans            &trans
 &trans      &kp LGUI         &kp LALT        &kp LCTRL        &kp LSHFT        &kp INSERT       &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans            &trans
-&trans      &kp LG(LS(N4))   &trans          &trans           &trans           &trans    &mmv MOVE_RIGHT  &trans           &trans  &trans      &trans     &kp LG(LS(S))    &trans
+&trans      &kp LC(LS(N4))   &trans          &trans           &trans           &trans    &mmv MOVE_RIGHT  &trans           &trans  &trans      &trans     &kp PSCRN        &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
