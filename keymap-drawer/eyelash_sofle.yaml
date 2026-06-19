@@ -145,8 +145,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -337,3 +337,9 @@ combos:
 - p: [40, 41, 42, 43]
   k: Ctl+A
   l: [LAYER0]
+- p: [18, 31, 44]
+  k: $$mdi:bluetooth-off$$
+  l: [LAYER2]
+- p: [20, 33, 46]
+  k: BT CLR ALL
+  l: [LAYER2]
