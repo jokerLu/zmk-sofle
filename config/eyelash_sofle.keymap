@@ -121,6 +121,21 @@
             timeout-ms = <60>;
             layers = <0>;
         };
+
+        // Destructive BT keys as 3-key column combos (layer 2 only)
+        combo_bt_clr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <18 31 44>;   // T + G + B
+            timeout-ms = <50>;
+            layers = <2>;
+        };
+
+        combo_bt_clr_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <20 33 46>;   // Y + H + N
+            timeout-ms = <50>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -172,7 +187,7 @@
         layer_2 {
             bindings = <
 &kp TILDE  &trans        &trans          &trans        &trans        &trans    &mmv MOVE_UP     &trans  &trans  &trans      &trans     &trans       &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_SEL 0   &bt BT_SEL 1   &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
+&trans     &trans        &trans          &bt BT_SEL 0   &bt BT_SEL 1   &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
 &trans     &out OUT_USB  &out OUT_BLE    &bt BT_SEL 2   &bt BT_SEL 3   &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &trans       &trans
 &bootloader &sys_reset   &trans          &bt BT_SEL 4  &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &trans      &soft_off  &sys_reset   &bootloader
 &kp C_MUTE &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
