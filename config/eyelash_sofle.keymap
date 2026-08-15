@@ -101,6 +101,13 @@
         };
 
         // Editing combos on the base layer (Z=40 X=41 C=42 V=43)
+        combo_cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <40 41>;   // Z + X
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
         combo_copy {
             bindings = <&kp LC(C)>;
             key-positions = <41 42>;   // X + C
@@ -174,8 +181,8 @@
         layer_1 {
             bindings = <
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans            &trans
-&trans      &trans           &trans          &trans           &trans           &trans           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &trans            &trans
-&trans      &kp LGUI         &kp LALT        &kp LCTRL        &kp LSHFT        &kp INSERT       &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans            &trans
+&trans      &trans           &trans          &trans           &trans           &trans           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &trans      &kp END    &trans            &trans
+&trans      &kp LGUI         &kp LALT        &kp LCTRL        &kp LSHFT        &kp INSERT       &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp UP     &kp RIGHT         &trans
 &trans      &kp LC(LS(N4))   &trans          &trans           &trans           &trans    &mmv MOVE_RIGHT  &trans           &trans  &trans      &trans     &kp PSCRN        &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
