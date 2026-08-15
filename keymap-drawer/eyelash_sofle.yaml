@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - HOME
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -102,8 +102,8 @@ layers:
   - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Ctl+Sft+4, s: Ctl+Sft+$}
@@ -328,6 +328,9 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [40, 41]
+  k: Ctl+X
+  l: [LAYER0]
 - p: [41, 42]
   k: Ctl+C
   l: [LAYER0]
